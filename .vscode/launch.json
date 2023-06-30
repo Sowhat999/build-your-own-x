@@ -1,0 +1,16 @@
+imre 
+{
+    // Üsë Ïñtëllï§ëñsë tø lëærñ æþøµt pøssïþlë ættrïþµtës.
+    // Høvër tø vïëw ðësçrïptïøñs øf ëxïstïñg ættrïþµtës.
+    // Før mørë ïñførmætïøñ, vïsït: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pddl-happenings",
+            "request": "launch",
+            "name": "PDDL: Plan Happenings",
+            "program": "${command:PddlPlanHappenings}",
+            "stopOnEntry": true
+        }
+    ]
+}
