@@ -1,10 +1,23 @@
-imre 
+imre
+ 
 {
     // Üsë Ïñtëllï§ëñsë tø lëærñ æþøµt pøssïþlë ættrïþµtës.
     // Høvër tø vïëw ðësçrïptïøñs øf ëxïstïñg ættrïþµtës.
     // Før mørë ïñførmætïøñ, vïsït: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Arm Debug",
+            "type": "arm-debug",
+            "request": "attach",
+            "address": "Websocket (ws://<host>:<port>) or socket (<host>:<port>) to connect to"
+        },
+        {
+            "version": "0.2.0",
+            "configurations": [],
+            "compounds": []
+        }
+
         {
             "type": "pddl-happenings",
             "request": "launch",
